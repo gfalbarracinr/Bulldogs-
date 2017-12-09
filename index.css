@@ -127,7 +127,7 @@ padding: 0 !important;
 
 /* For mobile devices */
 .mobile{
-	display: none;
+  display: none;
 }
 .img-logo-mobile{
   margin-top: 2px;
@@ -167,7 +167,7 @@ padding: 0 !important;
   margin-bottom: 0;
 }
 .bar{
-	color: white;
+  color: white;
 }
 .mobile-nav {
   height: 0;
@@ -202,8 +202,8 @@ padding: 0 !important;
   -webkit-transform: translate(0px);
 }
 .mobile{
-	float: right;
-	width: 100%;
+  float: right;
+  width: 100%;
 }
 /* Mobile footer*/
 
@@ -364,7 +364,7 @@ padding: 0 !important;
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 99; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -374,16 +374,27 @@ padding: 0 !important;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+.text-white{
+  color: white;
+}
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #0390BB;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-}
+    width: 75%;
+    max-width: 800px;
+    border-radius: initial;
 
+}
+.reduceFont{
+ margin: auto;
+}
+.btn-modal{
+  color: white;
+  background-color: #012E45;
+}
 /* The Close Button */
 .close {
     color: #aaaaaa;
@@ -399,12 +410,12 @@ padding: 0 !important;
     cursor: pointer;
 }
 @media screen and (max-width: 1200px){
-	.pc-device{
-		display: none ;
-	}
-	.mobile{
-		display: inline-block;
-	}
+  .pc-device{
+    display: none ;
+  }
+  .mobile{
+    display: inline-block;
+  }
   .brandLogoimg-mobile{
     display: none;
   }

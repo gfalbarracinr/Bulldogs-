@@ -172,6 +172,7 @@ padding: 0 !important;
 .mobile-nav {
   height: 0;
   z-index: 10;
+  margin-bottom: 10px;
 }
 .mobile-nav ul {
   width: 100%;
@@ -245,9 +246,9 @@ padding: 0 !important;
 .body{
   background-color:#0390BB; 
 }
-
 .card{
   background-color: white;
+  margin-top: 10px;
 }
 .main-section{
   margin-top: 35px;
@@ -418,5 +419,8 @@ padding: 0 !important;
   }
   .brandLogoimg-mobile{
     display: none;
+  }
+  .content{
+    margin-top: 10px;
   }
 }

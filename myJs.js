@@ -56,6 +56,11 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+window.onkeyup = function(event){
+    if (event.keyCode == 27 ){
+        modal.style.display="none";
+    }
+}
 
 $(".go-upper-js").on("click",function(){
 	$("html, body").animate({ scrollTop: 0 }, "slow");
